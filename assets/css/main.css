@@ -2291,7 +2291,19 @@
 			width: 10%;
 		}
 
-		.thumbnail:after, .icons li:after, .video-thumbnail:after {
+		.video-thumbnail {
+			width: 100%;
+			height: 500px;
+			display: block;
+			margin: 10px auto;
+		}
+
+		iframe #media-container {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.thumbnail:after, .icons li:after {
 		  content: "";
 		  display: block;
 		  padding-bottom: 100%;
