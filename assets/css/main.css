@@ -3047,6 +3047,12 @@ and (orientation : portrait) {
 					width: 100%;
 					margin: 0;
 				}
+				.video-thumbnail {
+					width: 90% !important;
+				}
+				iframe {
+					width: 100% !important;
+				}
 
 	}
 /* iPhone 10 */
@@ -3094,6 +3100,13 @@ and (orientation : portrait) {
 
 		#pics section {
 			display: none;
+		}
+
+		.video-thumbnail {
+			width: 90% !important;
+		}
+		iframe {
+			width: 100% !important;
 		}
 
 		#center-name section {
