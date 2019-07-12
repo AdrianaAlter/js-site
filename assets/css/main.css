@@ -3170,3 +3170,15 @@ and (orientation : portrait) {
 
 
 }
+.video-link {
+	display: block;
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding: 60px 20px;
+	border: 1px solid white;
+	text-decoration: underline;
+}
+.video-link:hover {
+	border: 1px solid white;
+}
